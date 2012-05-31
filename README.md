@@ -26,18 +26,21 @@ flash-all.sh
 flash-base.sh  
 radio-maguro-i9250xxla02.img  
 bootloader-maguro-primela03.img  
-image-yakju-imm76d.zip  
+image-yakju-imm76i.zip  
 
 3. 下载Galaxy-Nexus-fastboot-v2.0.zip，解压缩。将官方固件copy到目录下重命名。规则如下：  
 刷基带请将radio-xxx.img重命名为radio.img  
 刷BL请将bootloader-xxx.img重命名为bootloader.img  
-刷固件请将image-xxx.img重命名为image.zip  
+刷固件请将image-xxx.zip重命名为image.zip  
 
 4. 关机进入fastboot模式（在关机状态下同时按“音量+”和“音量-”和“电源”三个键，等待机器发出轻微震动即可放开）  
 
-5. 解锁（解锁是root和刷机的前提，音量键选择“YES”开头的，然后按电源键确定）  
+5. 运行bat文件，选择2进行解锁（解锁是root和刷机的前提，音量键选择“YES”开头的，然后按电源键确定）  
 
 6. 高兴么就root一下。然后开始刷机，基带和BL能不刷就不刷，防止变砖头。  
+
+### 刷了官方的4.04后，不能root的问题  
+可以到[http://forum.xda-developers.com/showthread.php?t=1400871](http://forum.xda-developers.com/showthread.php?t=1400871)下载最新的Galaxy Nexus ToolKit，然后按照指引做就可以了。  
 
 ### 注意事项：  
 刷机有风险，操作需谨慎  
